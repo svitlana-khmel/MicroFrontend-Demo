@@ -1,5 +1,12 @@
 # Dependencies
 /node_modules
+# Ignore all node_modules in subdirectories
+**/node_modules/
+
+# Optional: ignore build artifacts
+**/dist/
+**/build/
+
 /.pnp
 .pnp.js
 
